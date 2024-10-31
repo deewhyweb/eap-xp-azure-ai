@@ -125,4 +125,4 @@ export JBOSS_HOME=/Users/phayes/projects/eap-llm
  --fpl org.jboss.eap.xp:wildfly-galleon-pack \
  --dir $JBOSS_HOME
 
-export  HUGGING_FACE_API_KEY=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# eap-xp-azure-ai
+export  HUGGING_FACE_API_KEY=hf
