@@ -67,6 +67,7 @@ a {
 #titleSection {
     color: white;
     margin-bottom: 80px;
+    background-image: url("img/Red-Hat.png");
 }
 
 #appTitle {
@@ -528,17 +529,6 @@ label {
     font-size: 16px;
     color: #6A7070;
     letter-spacing: 0;
-    float: left;
-    clear: left;
-}
-
-
-#footer_open_liberty {
-    width: 100px;
-    padding: 25px 25px 10px 25px;
-    background-image: url(/img/small_logo_dark_gray.svg);
-    background-repeat: no-repeat;
-    transition: background-image .2s;
     float: left;
     clear: left;
 }

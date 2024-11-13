@@ -6,26 +6,9 @@ import dev.langchain4j.service.AiServices;
 import dev.langchain4j.service.MemoryId;
 import dev.langchain4j.service.UserMessage;
 import jakarta.enterprise.context.ApplicationScoped;
-import jakarta.inject.Inject;
 
 @ApplicationScoped
 public class ChatAgent {
-
-    // @Inject
-    // @ConfigProperty(name = "azure.api.key")
-    // private String AZURE_API_KEY;
-
-    // @Inject
-    // @ConfigProperty(name = "chat.model.deployent")
-    // private String CHAT_MODEL_DEPLOYMENT;
-
-    // @Inject
-    // @ConfigProperty(name = "chat.model.endpoint")
-    // private String CHAT_MODEL_ENDPOINT;
-
-    // @Inject
-    // @ConfigProperty(name = "chat.memory.max.messages")
-    // private Integer MAX_MESSAGES;
 
     interface Assistant {
        String chat(@MemoryId String sessionId, @UserMessage String userMessage);
