@@ -27,6 +27,7 @@ section {
     background-image: url(/img/azure.png);
     background-repeat: no-repeat;
     background-position: top 20px right 15px;
+    background-size: 10%;
     height: 103px;
     margin-top: -94px;
 }
